@@ -15,7 +15,7 @@ const produceAdvice = async function () {
       dataObj.id = data.slip.id;
       dataObj.message = data.slip.advice;
 
-      console.log(dataObj);
+//       console.log(dataObj);
     });
 
   adviceMessageDisplay.innerHTML = `"${dataObj.message}"`;
